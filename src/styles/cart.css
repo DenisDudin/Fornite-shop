@@ -5,16 +5,76 @@
   right: 1rem;
 
   border-radius: 5px;
-  background-color: blue;
+  background-color: #0cbaba;
   color: #fff;
 
   cursor: pointer;
   z-index: 10;
 }
 
+.cart:hover {
+  color: #380036;
+}
+
+.bascket-list{
+  font-weight: 600;
+}
+
+.cart-title {
+  display: flex;
+  align-items: center;
+}
+
+.collection-item .basket-close{
+  position: absolute;
+  right: 20px;
+  top: 7px;
+  border-color: #fff;
+  color: #fff;
+}
+
+.collection-item .basket-close:hover{
+  background-color: #ce1414;
+
+}
+
+.bascket-list i{
+  border: 2px solid #0cbaba;
+  border-radius: 5px;
+  margin: 0 5px;
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+}
+
+.collection-item .add:hover {
+  color: #33ce14;
+}
+
+.collection-item .del:hover {
+  color: #ce1414;
+}
+
+.collection-item .remove-item:hover {
+  color: #ce1414;
+  border-color: #ce1414;;
+}
+
+.collection-item.active {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bascket-list .btn{
+  position: relative;
+  border-radius: 5px;
+  background-color: #380036;
+}
+
 @media (min-width: 768px) {
   .cart {
-    top: 5rem;
+    top: 90px;
     bottom: unset;
   }
 }

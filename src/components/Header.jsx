@@ -16,7 +16,7 @@ function Header() {
       <nav>
         <div className="nav-wrapper">
           <a href="#!" className="brand-logo">
-            Fortnite store
+            Fortnite Store
           </a>
           <ul className="right hide-on-med-and-down">
             <li>
